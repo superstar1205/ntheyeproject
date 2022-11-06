@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Col, Row, Table } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 const SessionInstitute = () => {

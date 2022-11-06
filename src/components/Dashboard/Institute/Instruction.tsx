@@ -1,5 +1,5 @@
 import React from "react";
-import { Breadcrumb, Card, Row, Col, Button, Form, FormGroup, Tooltip, OverlayTrigger } from "react-bootstrap";
+import { Breadcrumb, Card, Row, Col, Button } from "react-bootstrap";
 import { InstructionList } from "./Instruction-List";
 
 const Instruction = () => (

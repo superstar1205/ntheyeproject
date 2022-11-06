@@ -1,5 +1,5 @@
 import React from "react";
-import { Breadcrumb, Card, Row, Col, Button, Tooltip, OverlayTrigger, Accordion } from "react-bootstrap";
+import { Breadcrumb, Row, Col, Button, Tooltip, OverlayTrigger, Accordion } from "react-bootstrap";
 // import { BlockTable } from "./BlockTable";
 
 const TermCondition = () => (
