@@ -1,0 +1,230 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project        :   NOWA - HTML5 Bootstrap Admin Template
+Version        :   V.3
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   Spruko
+Author URL     :   https://themeforest.net/user/sprukosoft
+Support	       :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+
+/*
+1.  Accordions
+2.  Alerts
+3.  Badges
+4.  Breadcrumbs
+5.  Buttons
+6.  Card
+7.  Carousel
+8.  Dropdown
+9.  Forms
+10. Grid
+11. Input-group
+12. Modals
+13. Navigation
+14. Pagination
+15. Popover
+16. Progress
+17. Tables
+18. Tabs
+19. Toast
+20. Tooltip
+21. Main-content
+22. Header
+23. Horizontal-menu
+24. Profile
+25. Iconbar
+26. Datatable
+27. Date-picker
+28. Date-time-picker
+29. Jqvmap
+30. Chart
+31. Parsely
+32. Rangeslider
+33. Select2
+34. Spectrum
+35. Calendar
+36. Chat
+37 Contacts
+38. Error
+39. Invoice
+40. Mail
+41. Profile
+42. Background
+43. Border
+44. Height
+45. Margin
+46. Opacity
+47. Padding
+48. Position
+49. Typography
+50. Width
+51. Tags
+52. Navbar
+53. Wizard
+54. P-scroll
+55. Rating
+56. Timeline
+57. Countdown
+58. Image
+59. List
+60. Checkbox
+61  Radio
+62. Toggle
+63  Listgroup
+65  Custom-control
+66  Custom-styles
+67  Tabs
+*/
+
+@import "variables";
+
+
+/* ######## FONT ######## */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* ######## BOOTSTRAP ######## */ 
+@import "bootstrap/accordion";
+@import "bootstrap/alerts";
+@import "bootstrap/badge";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/buttons";
+@import "bootstrap/cards";
+@import "bootstrap/carousel";
+@import "bootstrap/custom";
+@import "bootstrap/dropdown";
+@import "bootstrap/forms";
+@import "bootstrap/grid";
+@import "bootstrap/input-group";
+@import "bootstrap/modals";
+@import "bootstrap/nav";
+@import "bootstrap/paginations";
+@import "bootstrap/popover";
+@import "bootstrap/progress";
+@import "bootstrap/tables";
+@import "bootstrap/toast";
+@import "bootstrap/tooltip";
+@import "bootstrap/tabs";
+
+/*  ######## CUSTOM ######## */ 
+@import "custom/bootstrap-input-spinner";
+@import "custom/checkbox";
+@import "custom/countdown";
+@import "custom/custom-control";
+@import "custom/image";
+@import "custom/list";
+@import "custom/listgroup";
+@import "custom/navbar";
+@import "custom/p-scroll";
+@import "custom/radio";
+@import "custom/rating";
+@import "custom/tags";
+@import "custom/timeline";
+@import "custom/toggle";
+@import "custom/custom-styles";
+@import "custom/Ie";
+@import "custom/ecommerce";
+@import "custom/widgets";
+
+/* ######## LAYOUT-STYLES ######## */
+@import "layout/footer";
+@import "layout/header";
+@import "layout/horizontal-menu";
+@import "layout/iconbar";
+@import "layout/maincontent";
+@import "layout/profile";
+@import "layout/sidebar";
+@import "layout/sidemenu";
+@import "layout/rtl";
+
+/* ######## LIBARARY ######## */
+@import "lib/chart";
+@import "lib/datatable";
+@import "lib/datepicker";
+@import "lib/datetimepicker";
+@import "lib/jquerysteps";
+@import "lib/jqvmap";
+@import "lib/parsely";
+@import "lib/rangesliders";
+@import "lib/select2";
+@import "lib/spectrum";
+@import "lib/calendar";
+@import "lib/notifications";
+
+
+/* ######## PLUGINS ######## */
+@import "plugins/accordion";
+@import "plugins/amazeui.datetimepicker";
+@import "plugins/bootstrap-datepicker";
+@import "plugins/buttons.bootstrap";
+@import "plugins/classic";
+@import "plugins/countdown";
+@import "plugins/dataTables.bootstrap";
+@import "plugins/fancy_fileupload";
+@import "plugins/fileupload";
+@import "plugins/fullcalendar";
+@import "plugins/gallery";
+@import "plugins/inputtags";
+@import "plugins/ion.rangeSlider";
+@import "plugins/ion.rangeSlider.skinFlat";
+// @import "plugins/jquery.simple-dtpicker";
+@import "plugins/jquery.steps";
+@import "plugins/jquery-ui-darggable";
+@import "plugins/jqvmap";
+@import "plugins/leaflet";
+@import "plugins/monolith";
+@import "plugins/morris";
+@import "plugins/multislider";
+@import "plugins/nano";
+@import "plugins/nice-select";
+@import "plugins/notifIt";
+@import "plugins/owl.carousel";
+@import "plugins/picker";
+@import "plugins/prism";
+@import "plugins/p-scrollbar";
+@import "plugins/quill.bubble";
+@import "plugins/quill.snow";
+@import "plugins/responsive.bootstrap";
+@import "plugins/richtext";
+@import "plugins/select2";
+@import "plugins/sidebar";
+@import "plugins/smartphoto";
+@import "plugins/spectrum";
+@import "plugins/star-rating-svg";
+@import "plugins/summernote";
+@import "plugins/summernote1";
+@import "plugins/sumoselect";
+@import "plugins/sweetalert";
+@import "plugins/tab-style";
+@import "plugins/telephoneinput";
+@import "plugins/timeline";
+@import "plugins/treeview";
+@import "plugins/twentytwenty";
+
+
+
+/* ######## TEMPLATE ######## */
+@import "temp/calendar";
+@import "temp/chat";
+@import "temp/contact";
+@import "temp/error";
+@import "temp/invoice";
+@import "temp/mail";
+
+/* ######## UTILITIES ######## */    
+@import "util/background";
+@import "util/border";
+@import "util/height";
+@import "util/margin";
+@import "util/opacity";
+@import "util/padding";
+@import "util/position";
+@import "util/typography";
+@import "util/width";
+
+
+

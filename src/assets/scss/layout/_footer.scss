@@ -1,0 +1,92 @@
+/* ###### 6.2 Footer  ###### */
+
+.main-footer {
+  background-color: $white;
+  border-top: 1px solid $border;
+  margin-top: auto;
+}
+
+@media (min-width: 992px) {
+  .main-footer {
+    display: block;
+  }
+
+  .sticky {
+    width: 100%;
+  }
+}
+
+.side-header {
+  position: sticky;
+  width: 100%;
+  z-index: 10 !important;
+ border-bottom:1px solid $border;;
+}
+
+.main-footer {
+  .container {
+    font-size: 14px;
+    padding: 38px 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    color: $gray-600;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container-fluid {
+    font-size: 14px;
+    padding: 38px 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-footer .container {
+    padding: 10px 0 0;
+  }
+}
+
+.main-footer-app {
+  .container, .container-fluid {
+    border-top-width: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-footer .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .main-footer .container-fluid {
+    font-size: 12px;
+  }
+}
+
+.main-footer-demo {
+  background-color: #0c025b;
+  color: $white-4;
+  height: 60px;
+
+  .container {
+    border-top-width: 0;
+  }
+
+  a {
+    color: $white-5;
+
+    &:hover, &:focus {
+      color: $white;
+    }
+  }
+}

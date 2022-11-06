@@ -1,0 +1,108 @@
+$background: #eaf3f147;
+$default-color:#4a4a69;
+
+/*Color variables*/
+$primary:var(--primary-bg-color);
+$primary-hover:var(--primary-bg-hover);
+$primary-border:var(--primary-bg-border);
+$primary-transparent:var(--primary-transparentcolor);
+$primary-02:var(--primary02);
+$primary-05:var(--primary05);
+$darkprimary-transparent:var(--darkprimary-transparentcolor);
+$transparentprimary-transparent:var(--transparentprimary-transparentcolor);
+$secondary:#f74f75;
+$success:#24d5b8 ;
+$warning:#ffbd5a;
+$danger:#f34343;
+$info:#4ec2f0;
+$pink:#f754fa;
+$teal:#29ddee;
+$purple:#ad4ffa;
+$orange:#fd7e14;
+$dark:#3b4863;
+$indigo:#5b67c7;
+$white:#fff;
+$black:#000;
+$yellow:#ffc102;
+$muted:#7987a1;
+$dark-primary:#834cc3;
+
+$primary-transaprent:#f5faf8;
+
+/*gradient variables*/
+$primary-gradient:linear-gradient(to right, $primary  0%,  $primary-05 100%);
+$secondary-gradient:linear-gradient(to right, $secondary 0%,  rgba($secondary,0.5) 100%);
+$success-gradient:linear-gradient(to right,$success  0%,  rgba($success,0.5) 100%);
+$warning-gradient:linear-gradient(to right, $warning 0%,rgba($warning,0.5) 100%);
+$pink-gradient:linear-gradient(to right, $pink 0%, rgba($pink,0.5) 100%);
+$teal-gradient:linear-gradient(to right, $teal 0%, rgba($teal,0.5) 100%);
+$danger-gradient:linear-gradient(to right,$danger 0%,rgba($danger,0.5) 100%);
+$info-gradient:linear-gradient(to right, $info 0%,rgba($info,0.5) 100%);
+$orange-gradient:linear-gradient(to right,$orange 0%,rgba($orange,0.5) 100%);
+$purple-gradient:linear-gradient(to right, $purple 0%, rgba($purple,0.5) 100%);
+
+/*gray variables*/
+$gray-100:#f9f9fb;
+$gray-200:#f0f0f8;
+$gray-300:#e1e1ef;
+$gray-400:#d6d6e6;
+$gray-500:#949eb7;
+$gray-600:#7987a1;
+$gray-700:#4d5875;
+$gray-800:#383853;
+$gray-900:#323251;
+
+/*white variables*/
+$white-1:rgba(255, 255, 255, 0.1);
+$white-2:rgba(255, 255, 255, 0.2);
+$white-3:rgba(255, 255, 255, 0.3);
+$white-4 :rgba(255, 255, 255, 0.4);
+$white-5 :rgba(255, 255, 255, 0.5);
+$white-6 :rgba(255, 255, 255, 0.6);
+$white-7 :rgba(255, 255, 255, 0.7);
+$white-8 :rgba(255, 255, 255, 0.8);
+$white-9 :rgba(255, 255, 255, 0.9);
+$white-05:rgba(255, 255, 255, 0.05);
+$white-08:rgba(255, 255, 255, 0.08);
+$white-75:rgba(255, 255, 255, 0.075);
+
+/*black variables*/
+$black-1:rgba(0, 0, 0, 0.1);
+$black-2:rgba(0, 0, 0, 0.2);
+$black-3:rgba(0, 0, 0, 0.3);
+$black-4:rgba(0, 0, 0, 0.4);
+$black-5:rgba(0, 0, 0, 0.5);
+$black-6:rgba(0, 0, 0, 0.6);
+$black-7:rgba(0, 0, 0, 0.7);
+$black-8:rgba(0, 0, 0, 0.8);
+$black-9:rgba(0, 0, 0, 0.9);
+$black-05:rgba(0, 0, 0, 0.05);
+
+/*shadow variables*/
+$shadow: 1px 1px 7px rgba(154, 154, 204, .1);
+
+$dark-theme:#2a2e3f;
+$border:#ededf5;
+$form-border:#cdd4e2;
+$bg-hover:#fcfcff;
+$bg-active:var(--primary02);
+$bg-active2:#fafaff;
+$border-dark:#484863;
+
+
+/*alerts*/
+$alert-primary-link:#00aa90;
+
+/*navigation*/
+$nav-primary-border :#07b79c;
+$nav-secondary-border :#f52756;
+$nav-info-border : #26b7f0;
+
+/*dark colors*/
+$primary-dark :#00b598;
+
+
+//transparent-theme
+$transparent-theme: rgba(0,0,0,0.2);
+$transparent-body: var(--transparent-body);
+$transparent-border: rgba(255,255,255,0.15)

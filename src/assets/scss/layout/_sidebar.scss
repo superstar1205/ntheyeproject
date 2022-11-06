@@ -1,0 +1,134 @@
+/* ###### 6.8 Sidebar  ###### */
+
+.nav-link.with-sub {
+  .angle {
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    position: absolute;
+    top: 17px;
+    right: 23px;
+    font-size: 12px;
+  }
+
+  .side-badge {
+    right: 23px;
+    position: absolute;
+  }
+}
+
+.sidebar-right .main-nav-line .nav-link {
+  padding: 10px 18px 10px 21px;
+  background: $gray-200;
+
+  &.active::before {
+    bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar-mini.sidenav-toggled .main-sidebar-header .logo-icon.dark-theme {
+    display: none;
+  }
+}
+
+.sidebar {
+  .tab-menu-heading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    margin-bottom: 27px;
+    background: $gray-100;
+  }
+
+  .tabs-menu-body {
+    margin-top: 56px;
+  }
+
+  .tabs-menu ul li {
+    .active {
+      background: $primary;
+      color: $white;
+      border: 1px solid $primary;
+    }
+
+    a {
+      padding: 8px 8px;
+      font-size: 12px;
+      display: inline-block;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      border: 1px solid #ebeaf1;
+      font-weight: 500;
+      background: transparent;
+      color: $default-color;
+      margin: 0 2px;
+    }
+
+    &:last-child a {
+      margin-bottom: 0px;
+    }
+  }
+
+  .nav.panel-tabs {
+    padding: 15px;
+  }
+
+  .avatar-md {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 15px !important;
+  }
+
+  .avatar-lg {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  position: fixed;
+  display: block;
+  top: 0px;
+  width: 320px;
+  bottom: 0;
+  z-index: 9999;
+  height: 100%;
+  background: $white;
+  box-shadow: 0px 18px 36px 10px rgba(154, 154, 204, 0.1);
+  border-left: 1px solid $border;
+
+  .card {
+    box-shadow: none;
+    border: 0 !important;
+  }
+
+  .list-group-item {
+    margin-bottom: -2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar .tab-menu-heading .tabs-menu ul li {
+    width: auto;
+    margin: 0;
+  }
+}
+.sidebar-right .list a {
+  color: $default-color;
+}
+
+.tabs-menu ul li a {
+  padding: 10px 12px 11px 13px;
+  display: block;
+}
+.sidebar .nav.panel-tabs .side-menu__icon {
+  margin-right: 2px;
+  width: 16px;
+  height: 16px;
+}
+.sidebar {
+  .tab-pane b {
+    font-weight: 500;
+  }
+}
