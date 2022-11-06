@@ -1,5 +1,5 @@
 import React from "react";
-import { Breadcrumb, Card, Row, Col, Button } from "react-bootstrap";
+import { Breadcrumb, Card, Row, Col } from "react-bootstrap";
 import SalesTable from "./AddSales-Table";
 
 const AddSales = () => (
